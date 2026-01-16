@@ -33,3 +33,4 @@ Project Structure
   ├── .gitignore              # Ignored files (secrets, cache)
   └── .streamlit/
     └── secrets.toml          # API key
+
