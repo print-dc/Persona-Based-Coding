@@ -6,20 +6,9 @@ Built using Groq LLMs and LangChain for fast, low-latency AI responses.
 ✨ Features
 
 🎭 Persona-based responses
-
 Beginner Mentor → simple explanations
-
 Code Reviewer → structured feedback & best practices
-
 Bug Fixer → debugging-focused guidance
-
-⚡ Powered by Groq LLMs
-
-llama3-8b
-
-llama3-70b
-
-mixtral-8x7b
 
 🎛️ Model & temperature selection
 
@@ -27,14 +16,20 @@ mixtral-8x7b
 
 🔐 Secure API key handling using secrets.toml
 
-🛠️ Tech Stack
+🛠️ Tech Stack :-
+      Python
+      Streamlit
+      LangChain
+      Groq API
+      Git & GitHub
 
-Python
-
-Streamlit
-
-LangChain
-
-Groq API
-
-Git & GitHub
+Project Structure
+  Persona-Based-Coding/
+  │
+  ├── app.py                  # Main Streamlit application
+  ├── personas.py             # Persona prompt definitions
+  ├── requirements.txt        # Dependencies
+  ├── README.md               # Project documentation
+  ├── .gitignore              # Ignored files (secrets, cache)
+  └── .streamlit/
+    └── secrets.toml          # API key
